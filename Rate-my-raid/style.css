@@ -92,7 +92,21 @@ nav a {
     border-radius: 0.5rem;
 }
 
-nav a:hover {
+#Home-button:hover {
+    background-color: purple;
+}
+#Potion-button:hover {
+    background-color: green;
+}
+#Flask-button:hover {
+    background-color: rgb(221, 119, 1);
+}
+#Food-button:hover {
     background-color: blue;
+}
+#Buff-button:hover {
+    background-color: antiquewhite;
+    color: black;
+    border-color: black;
 }
 
