@@ -1,6 +1,7 @@
-main {background-color: blue;}
-aside {background-color: purple;}
-body {background-color: #151515;}
+body {background-color: #303030;
+border-color: silver;
+}
+
 /*Grid body */
 .grid-container {
     display: grid;
@@ -17,7 +18,6 @@ body {background-color: #151515;}
 header {
     grid-column: 1/13;
     border-top-style: solid;
-    border-color: silver;
     border-left-style: solid;
     border-right-style: solid;
     background-color: #212121;
@@ -28,7 +28,6 @@ header {
 footer {
     grid-column: 1/13;
     border-style: solid;
-    border-color: silver;
     border-width: 2px;
     color: antiquewhite;
     background-color: #212121;
@@ -40,6 +39,9 @@ aside {
     border-right-style: solid;
     border-color: silver;
     border-width: 2px;
+    border-left-style: solid;
+    padding: 20px;
+    color: antiquewhite;
 }
 /* Grid for main */
 .main-grid-container {
@@ -58,12 +60,15 @@ main {
     color: antiquewhite;
 }
 
-#list {
-    display: flex;
-    list-style: lower-alpha;
-    padding-top: 5%;
-    gap: 10px;
+/* Aside */
+#consumables {
+    
 }
+
+#consumables-list {
+    list-style: lower-alpha;
+}
+
 
 /* Nav */
 #nav {
