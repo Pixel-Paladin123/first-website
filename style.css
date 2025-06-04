@@ -109,6 +109,16 @@ nav a {
     color: black;
     border-color: black;
 }
+#Form-button:hover {
+    background-color: red;
+    color: black;
+    border-color: black;
+}
+#Feedback-button:hover {
+    background-color: pink;
+    color: black;
+    border-color: black;
+}
 
 /* Aside */
 .aside-grid-container {
